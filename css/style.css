@@ -178,6 +178,13 @@ body._lock {
     padding: 40px 20px;
   }
 }
+@media (max-width: 590px) {
+  .header__inner:has(.header__button._active) {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 
 .header__logo {
   position: relative;
@@ -254,6 +261,11 @@ body._lock {
   transition: all 0.3s ease 0s;
   -webkit-animation: headanim 3s linear 0s forwards;
           animation: headanim 3s linear 0s forwards;
+}
+@media (max-width: 590px) {
+  .header__button._active {
+    margin: 0;
+  }
 }
 @media (max-width: 767px) {
   .header__button {
@@ -928,11 +940,6 @@ body._lock {
   scale: 1;
   -webkit-transition: all 0.8s ease-out 0s;
   transition: all 0.8s ease-out 0s;
-}
-@media (max-width: 450px) {
-  .battery__case {
-    max-width: 300px;
-  }
 }
 
 .alive {
