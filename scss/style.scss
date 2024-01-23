@@ -352,7 +352,7 @@ background: linear-gradient(180deg, #CADBEB 0%, rgba(235, 235, 235, 0.00) 100%);
 	font-weight: 700;
 	position: absolute;
 	// z-index: 100;
-	top: 276px;
+	top: 190px;
 	
 	span{
 		overflow: hidden;
@@ -364,9 +364,7 @@ background: linear-gradient(180deg, #CADBEB 0%, rgba(235, 235, 235, 0.00) 100%);
 		transition: all 0.8s ease 0.2s;
 		animation: animtext 8s linear infinite;
 	}
-	@media (max-width:1440px){
-		top: 190px;
-	};
+
 	@media (max-width:1270px){
 		font-size: 140px;
 		top: 220px;
@@ -492,15 +490,13 @@ background: linear-gradient(180deg, #CADBEB 0%, rgba(235, 235, 235, 0.00) 100%);
 
 .cover__image {
 	text-align: center;
-	padding: 163px 0 163px 0;
+	padding: 70px 0 100px 0;
 	position: relative;
 	z-index: -2;
 	img{
 		max-width: 100%;
 	}
-	@media (max-width:1440px){
-		padding: 70px 0 100px 0;
-	};
+
 	@media (max-width:1270px){
 		padding: 70px 160px 70px 0px;
 	};

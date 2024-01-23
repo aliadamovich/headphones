@@ -459,7 +459,7 @@ body._lock {
   font-size: 210px;
   font-weight: 700;
   position: absolute;
-  top: 276px;
+  top: 190px;
 }
 .cover__title span {
   overflow: hidden;
@@ -473,11 +473,6 @@ body._lock {
   transition: all 0.8s ease 0.2s;
   -webkit-animation: animtext 8s linear infinite;
           animation: animtext 8s linear infinite;
-}
-@media (max-width: 1440px) {
-  .cover__title {
-    top: 190px;
-  }
 }
 @media (max-width: 1270px) {
   .cover__title {
@@ -639,17 +634,12 @@ body._lock {
 
 .cover__image {
   text-align: center;
-  padding: 163px 0 163px 0;
+  padding: 70px 0 100px 0;
   position: relative;
   z-index: -2;
 }
 .cover__image img {
   max-width: 100%;
-}
-@media (max-width: 1440px) {
-  .cover__image {
-    padding: 70px 0 100px 0;
-  }
 }
 @media (max-width: 1270px) {
   .cover__image {
