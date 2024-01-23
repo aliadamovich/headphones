@@ -364,6 +364,9 @@ background: linear-gradient(180deg, #CADBEB 0%, rgba(235, 235, 235, 0.00) 100%);
 		transition: all 0.8s ease 0.2s;
 		animation: animtext 8s linear infinite;
 	}
+	@media (max-width:1440px){
+		top: 190px;
+	};
 	@media (max-width:1270px){
 		font-size: 140px;
 		top: 220px;
@@ -426,6 +429,7 @@ background: linear-gradient(180deg, #CADBEB 0%, rgba(235, 235, 235, 0.00) 100%);
 	position: relative;
 	top: 70px;
 	left: 10px;
+
 	@media (max-width:1000px){
 		top: 0;
 		left: 50px;
@@ -467,6 +471,7 @@ background: linear-gradient(180deg, #CADBEB 0%, rgba(235, 235, 235, 0.00) 100%);
 	top: 370px;
 	right: -190px;
 	z-index: -3;
+
 	@media (max-width:1270px){
 		right: -130px;
 	};
@@ -493,6 +498,9 @@ background: linear-gradient(180deg, #CADBEB 0%, rgba(235, 235, 235, 0.00) 100%);
 	img{
 		max-width: 100%;
 	}
+	@media (max-width:1440px){
+		padding: 70px 0 100px 0;
+	};
 	@media (max-width:1270px){
 		padding: 70px 160px 70px 0px;
 	};

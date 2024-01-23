@@ -474,6 +474,11 @@ body._lock {
   -webkit-animation: animtext 8s linear infinite;
           animation: animtext 8s linear infinite;
 }
+@media (max-width: 1440px) {
+  .cover__title {
+    top: 190px;
+  }
+}
 @media (max-width: 1270px) {
   .cover__title {
     font-size: 140px;
@@ -640,6 +645,11 @@ body._lock {
 }
 .cover__image img {
   max-width: 100%;
+}
+@media (max-width: 1440px) {
+  .cover__image {
+    padding: 70px 0 100px 0;
+  }
 }
 @media (max-width: 1270px) {
   .cover__image {
